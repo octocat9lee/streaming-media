@@ -1,3 +1,12 @@
+# visual studio 2017 project files
+.vs
+Debug
+bin
+
+# Media Resource files
+resource
+!NocturneNo2inEflat_44.1k_s16le.pcm
+
 # Prerequisites
 *.d
 
