@@ -15,6 +15,10 @@
 #define GNUC_PACKED
 #endif
 
+#ifndef __GNUC__
+#pragma pack(1)
+#endif
+
 typedef struct
 {
     int8_t   fccID[4];
@@ -39,10 +43,6 @@ typedef struct WAVE_DATA
     int8_t   fccID[4];
     uint32_t dwSize;
 }WAVE_DATA;
-
-#ifndef __GNUC__
-#pragma pack(1)
-#endif
 
 #ifndef __GNUC__
 #pragma pack()
