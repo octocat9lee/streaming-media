@@ -1,7 +1,9 @@
 # visual studio 2017 project files
 .vs
 Debug
+Release
 bin
+*.user
 
 # Media Resource files
 resource
