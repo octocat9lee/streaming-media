@@ -11,4 +11,9 @@
 
 PUB_API std::string GetFilename(const std::string &fullname);
 
+PUB_API unsigned GetFileSize(const std::string &fullname);
+
+PUB_API void ReadFile(const std::string &fullname,
+    const unsigned char *buf, const unsigned &size);
+
 #endif

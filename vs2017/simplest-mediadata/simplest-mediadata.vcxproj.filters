@@ -27,6 +27,12 @@
     <ClCompile Include="..\..\simplest-mediadata\src\FlvData.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\simplest-mediadata\src\RtpStream.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\simplest-mediadata\src\H264Data.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\simplest-mediadata\src\SimplestMediadata.h">

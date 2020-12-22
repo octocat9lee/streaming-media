@@ -149,8 +149,10 @@
   <ItemGroup>
     <ClCompile Include="..\..\simplest-mediadata\src\AacData.cpp" />
     <ClCompile Include="..\..\simplest-mediadata\src\FlvData.cpp" />
+    <ClCompile Include="..\..\simplest-mediadata\src\H264Data.cpp" />
     <ClCompile Include="..\..\simplest-mediadata\src\main.cpp" />
     <ClCompile Include="..\..\simplest-mediadata\src\PcmData.cpp" />
+    <ClCompile Include="..\..\simplest-mediadata\src\RtpStream.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\simplest-mediadata\src\SimplestMediadata.h" />

@@ -25,7 +25,19 @@ void flv()
     simplest_flv_parser(resourcePath + std::string("cuc_ieschool.flv"));
 }
 
+void rtp()
+{
+    simplest_rtp_parser(resourcePath + std::string("haikang.rtp"));
+}
+
+void h264()
+{
+    simplest_h264_parser(resourcePath + std::string("sintel.h264"));
+}
+
 int main()
 {
+    //rtp();
+    h264();
     return 0;
 }

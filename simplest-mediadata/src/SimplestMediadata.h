@@ -15,4 +15,8 @@ void simplest_aac_parser(const std::string &url);
 
 int simplest_flv_parser(const std::string &url);
 
+void simplest_rtp_parser(const std::string &url);
+
+void simplest_h264_parser(const std::string &url);
+
 #endif
