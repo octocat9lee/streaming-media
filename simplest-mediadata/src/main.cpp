@@ -27,7 +27,7 @@ void flv()
 
 void rtp()
 {
-    simplest_rtp_parser(resourcePath + std::string("haikang.rtp"));
+    simplest_rtp_parser(resourcePath + std::string("length_udp.rtp"));
 }
 
 void h264()
@@ -37,7 +37,6 @@ void h264()
 
 int main()
 {
-    //rtp();
-    h264();
+    rtp();
     return 0;
 }
